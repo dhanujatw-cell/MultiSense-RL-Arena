@@ -75,7 +75,48 @@ Navigate to the `ml-agents-release_20` directory and run the following commands:
 pip3 install -e ./ml-agents-envs
 pip3 install -e ./ml-agents
 ```
-cd 
+## 🎯 Use Case: Multi-Camera Surveillance with Intelligent Steering
+
+This framework is demonstrated through a **multi-camera surveillance system** using three fixed-location cameras.  
+Each camera is attached to a **resource-constrained edge device**, capable of running lightweight 2D object detectors such as **YOLOv8-n**.
+
+The objective is to **maximize person detection** in a large outdoor environment by steering each camera **only along the yaw (horizontal) axis**.  
+The system **intelligently coordinates** the cameras to cover areas where people are present and **dynamically adapts** to their natural movement within the scene.
+
+---
+
+## 🚀 Training & Simulation Steps
+
+We showcase the end-to-end training and simulation workflow based on the above use case.
+
+### 🧠 Step 1: Start the RL Training Server
+
+Start the centralized multi-agent training server by running:
+
+```bash
+python3 server_multiagent.py
+```
+This will launch the DQN-based training for a centralized N-camera policy.
+The state, reward, and action spaces are defined in the code according to the surveillance application.
+You may modify these definitions based on your own use case.
+### 🎮 Step 2: Start Unity Simulation
+
+After configuring the Unity environment (as described earlier), start the simulation by pressing **Play** in the Unity Editor.
+
+This will begin the training process. You can observe the simulation either:
+
+- Visually through the **Unity Game view**
+- Or via an **OpenCV-based visualization window**
+
+---
+
+### 🎥 Demo Video
+
+See the system in action:  
+**Screencast from 15-05-2025 19:49:37**  
+[Screencast from 15-05-2025 19_49_37.webm](https://github.com/user-attachments/assets/f6cde4fb-2465-42fb-97db-af75cceaa267)
+
+
 ##Citation
 If you use this work, please cite:
 @article{YourCitation2025,
