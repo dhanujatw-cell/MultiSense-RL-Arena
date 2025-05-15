@@ -121,12 +121,15 @@ See the system in action:
 [Screencast from 15-05-2025 19_49_37.webm](https://github.com/user-attachments/assets/f6cde4fb-2465-42fb-97db-af75cceaa267)
 
 
-###Citation
+### 📚 Citation
+
 If you use this work, please cite:
+
+```bibtex
 @article{YourCitation2025,
-  title={MultiSense-RL-Arena: Multi-Sensor Reinforcement Learning Framework},
-  author={Your Name},
-  year={2025},
-  journal={GitHub Project}
+  title     = {MultiSense-RL-Arena: Multi-Sensor Reinforcement Learning Framework},
+  author    = {Your Name},
+  year      = {2025},
+  journal   = {GitHub Project}
 }
 
