@@ -75,6 +75,9 @@ Navigate to the `ml-agents-release_20` directory and run the following commands:
 pip3 install -e ./ml-agents-envs
 pip3 install -e ./ml-agents
 ```
+### ✅ Unity Envieonment Configuration
+to be filled by Mayooran
+
 ## 🎯 Use Case: Multi-Camera Surveillance with Intelligent Steering
 
 This framework is demonstrated through a **multi-camera surveillance system** using three fixed-location cameras.  
@@ -84,6 +87,7 @@ The objective is to **maximize person detection** in a large outdoor environment
 The system **intelligently coordinates** the cameras to cover areas where people are present and **dynamically adapts** to their natural movement within the scene.
 
 ---
+
 
 ## 🚀 Training & Simulation Steps
 
