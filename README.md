@@ -32,6 +32,7 @@ MultiSense-RL-Arena/
 │ └── com.unity.perception-Release-0.9.0.preview.2/
 ├── server_multiagent.py
 ├── README.md
+├── requirements.txt
    ```
 ## 🛠️ Setup Unity Packages
 
