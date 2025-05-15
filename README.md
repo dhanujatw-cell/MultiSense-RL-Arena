@@ -11,7 +11,7 @@ MultiSense-RL Arena is a reinforcement learning framework for multi-sensor edge-
 - 📦 Built-in object detection support
 - 🔀 Real-time manupulation of multi-camera sensors
 
-## Installation
+## Pre Installation
 ```bash
 git clone https://github.com/dhanujatw-cell/MultiSense-RL-Arena.git
 cd MultiSense-RL-Arena
@@ -33,7 +33,10 @@ MultiSense-RL-Arena/
 ├── server_multiagent.py
 ├── README.md
    ```
-
+## Setup Unity Packages
+Install unity 2021.3.9f1 using unity hub 
+Install ml-agents-release_20
+cd 
 ##Citation
 If you use this work, please cite:
 @article{YourCitation2025,
