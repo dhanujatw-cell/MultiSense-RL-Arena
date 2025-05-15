@@ -12,11 +12,11 @@ MultiSense-RL Arena is a reinforcement learning framework for multi-sensor edge-
 - 🔀 Real-time manupulation of multi-camera sensors
 
 ## Installation
-
+```bash
 git clone https://github.com/dhanujatw-cell/MultiSense-RL-Arena.git
 cd MultiSense-RL-Arena
 pip install -r requirements.txt
-
+```
 ## Installation
 
 ## 📦 Usage
