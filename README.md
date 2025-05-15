@@ -61,8 +61,17 @@ Follow the same procedure to install `com.unity.perception-Release-0.9.0.preview
 > Using the original unmodified packages may result in unexpected behavior.
 
 ---
+### ✅ Server Installation
 
+To set up the server, it is **recommended** to install all the prerequisite packages using the **same versions** specified in the `requirements.txt` file.  
+Please use **Python 3.10.8** for full compatibility.
 
+Navigate to the `ml-agents-release_20` directory and run the following commands:
+
+```bash
+pip3 install -e ./ml-agents-envs
+pip3 install -e ./ml-agents
+```
 cd 
 ##Citation
 If you use this work, please cite:
