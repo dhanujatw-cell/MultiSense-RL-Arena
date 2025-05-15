@@ -1,3 +1,0 @@
-This is just a merge test
-
-this is a change in the same file
