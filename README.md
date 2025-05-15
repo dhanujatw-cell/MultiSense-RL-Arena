@@ -2,7 +2,7 @@
 
 MultiSense-RL Arena is a reinforcement learning framework for multi-sensor edge-based surveillance, using Unity ML-Agents, Stable-Baselines3,Perception Package and custom RL policies.
 
-![Unity Demo](path_to_demo_image_or_gif)
+[Screencast from 15-05-2025 19_49_37.webm](https://github.com/user-attachments/assets/f6cde4fb-2465-42fb-97db-af75cceaa267)
 
 ## Features
 
