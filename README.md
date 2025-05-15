@@ -33,12 +33,36 @@ MultiSense-RL-Arena/
 ├── server_multiagent.py
 ├── README.md
    ```
-## Setup Unity Packages
-Install unity 2021.3.9f1 using unity hub
-![1](https://github.com/user-attachments/assets/608f44a0-5de3-48ca-9c5f-fe5345fa6f2e)
+## 🛠️ Setup Unity Packages
+
+### ✅ Unity Installation
+
+Install **Unity 2021.3.9f1** using Unity Hub.
+
+![Unity Installation](https://github.com/user-attachments/assets/75aeb102-3c15-4fbd-ada5-c4fa354ce1bf)
+
+---
+
+### 📦 Package Installation
+
+#### 🔹 ML-Agents Package
+
+Install `ml-agents-release_20` by adding it to your Unity project as shown below:
+
+![Install Unity Packages](https://github.com/user-attachments/assets/d0f31edd-67fd-4a3e-9ded-0a9d64e658d1)
+
+#### 🔹 Perception Package
+
+Follow the same procedure to install `com.unity.perception-Release-0.9.0.preview.2`.
+
+> ⚠️ **Important:**  
+> Please use the exact package versions provided in this repository.  
+> We have made minor modifications to the original packages to enable **real-time annotation generation**.  
+> Using the original unmodified packages may result in unexpected behavior.
+
+---
 
 
-Install ml-agents-release_20
 cd 
 ##Citation
 If you use this work, please cite:
