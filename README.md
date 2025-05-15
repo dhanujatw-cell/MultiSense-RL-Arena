@@ -34,7 +34,10 @@ MultiSense-RL-Arena/
 ├── README.md
    ```
 ## Setup Unity Packages
-Install unity 2021.3.9f1 using unity hub 
+Install unity 2021.3.9f1 using unity hub
+![1](https://github.com/user-attachments/assets/608f44a0-5de3-48ca-9c5f-fe5345fa6f2e)
+
+
 Install ml-agents-release_20
 cd 
 ##Citation
