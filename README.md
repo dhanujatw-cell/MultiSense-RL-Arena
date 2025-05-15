@@ -17,16 +17,14 @@ git clone https://github.com/dhanujatw-cell/MultiSense-RL-Arena.git
 cd MultiSense-RL-Arena
 pip install -r requirements.txt
 ```
-## Installation
-
 ## 📦 Usage
 
 This project requires the installation of the Unity Perception package, ML-Agents, and Stable Baselines, as described below.
-
 ⚠️ **Important:** Use the **provided packages** and follow the installation instructions precisely. We have made minor modifications
  to the original packages; downloading them directly from the original repositories may lead to **unexpected errors**.
 
 ### 📁 Project Structure
+```bash
 MultiSense-RL-Arena/
 ├── Unity/
 ├── Server/
@@ -34,7 +32,7 @@ MultiSense-RL-Arena/
 │ └── com.unity.perception-Release-0.9.0.preview.2/
 ├── server_multiagent.py
 ├── README.md
-
+   ```
 
 ##Citation
 If you use this work, please cite:
