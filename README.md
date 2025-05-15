@@ -22,7 +22,8 @@ pip install -r requirements.txt
 
 This project requires the installation of the Unity Perception package, ML-Agents, and Stable Baselines, as described below.
 
-⚠️ **Important:** Use the **provided packages** and follow the installation instructions precisely. We have made minor modifications to the original packages; downloading them directly from the original repositories may lead to **unexpected errors**.
+⚠️ **Important:** Use the **provided packages** and follow the installation instructions precisely. We have made minor modifications
+ to the original packages; downloading them directly from the original repositories may lead to **unexpected errors**.
 
 ### 📁 Project Structure
 MultiSense-RL-Arena/
