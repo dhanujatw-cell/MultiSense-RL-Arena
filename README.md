@@ -17,3 +17,27 @@ MultiSense-RL Arena is a reinforcement learning framework for multi-sensor edge-
 git clone https://github.com/dhanujatw-cell/MultiSense-RL-Arena.git
 cd MultiSense-RL-Arena
 pip install -r requirements.txt
+
+
+Usage
+
+python train.py --config config/dqn_basic.yaml
+
+MultiSense-RL-Arena/
+├── config/
+├── scripts/
+├── unity_env/
+├── README.md
+└── ...
+
+
+
+Citation
+If you use this work, please cite:
+@article{YourCitation2025,
+  title={MultiSense-RL-Arena: Multi-Sensor Reinforcement Learning Framework},
+  author={Your Name},
+  year={2025},
+  journal={GitHub Project}
+}
+
