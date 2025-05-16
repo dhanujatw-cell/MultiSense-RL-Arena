@@ -38,6 +38,7 @@ MultiSense-RL-Arena/
 │ ├── ml-agents-release_20/
 │ └── com.unity.perception-Release-0.9.0.preview.2/
 ├── server_multiagent.py
+├── server_multiagent_evaluation.py
 ├── README.md
 ├── requirements.txt
    ```
@@ -120,8 +121,26 @@ This will begin the training process. You can observe the simulation either:
 - Or via an **OpenCV-based visualization window**
 
 ---
-### 🚀 Simultion using pre trained-(for two camera case)
-Set up 
+### 🚀 Simulation Using Pre-Trained Model (Two-Camera Setup)
+
+1. **Environment Setup**  
+   Set up the Unity environment and server as described in the earlier sections.
+
+2. **Pre-Trained Weights**  
+   - The pre-trained weights are located in the 📂 `Code` section.  
+   - The folder name is: `20250515-200356`.  
+   - Please move this folder into the `training_runs/` directory.
+
+3. **Camera Placement in Unity**  
+   In the Unity scene, place the two camera agents at the following coordinates:
+   - **Camera 1**: `(x=17.61, y=4, z=30.02)`
+   - **Camera 2**: `(x=1.81, y=4, z=12.94)`
+
+4. **Run Evaluation**  
+   Use the following command to evaluate the pre-trained model:
+   ```bash
+   python3 server_multiagent_evaluation.py --model_path training_runs/20250515-200356/final_model --mode eval
+```
 
 
 ### 🎥 Demo Video
