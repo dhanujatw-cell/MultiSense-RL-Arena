@@ -140,16 +140,14 @@ This will begin the training process. You can observe the simulation either:
    Use the following command to evaluate the pre-trained model:
    ```bash
    python3 server_multiagent_evaluation.py --model_path training_runs/20250515-200356/final_model --mode eval
-  ```
----
-
+   ```
 
 ### 🎥 Demo Video
 
 See the system in action:  
 **Screencast from 15-05-2025 19:49:37**  
 [Screencast from 15-05-2025 19_49_37.webm](https://github.com/user-attachments/assets/f6cde4fb-2465-42fb-97db-af75cceaa267)
-
+---
 
 ### 📚 Citation
 
