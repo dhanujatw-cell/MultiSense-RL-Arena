@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Person_Idle
       objectReference: {fileID: 0}
+    - target: {fileID: 3356990341496475991, guid: 68c2df9e65df4214ba5401f6dd66d97a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68c2df9e65df4214ba5401f6dd66d97a, type: 3}
 --- !u!1 &336075259
@@ -196,7 +200,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &336075260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,7 +233,7 @@ MonoBehaviour:
   configuration: {fileID: 0}
   constants:
     randomSeed: 500
-    totalIterations: 2
+    totalIterations: 20
     instanceCount: 1
     instanceIndex: 0
     framesPerIteration: 500
@@ -1781,6 +1785,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Person_walk
       objectReference: {fileID: 0}
+    - target: {fileID: 6452236180834538679, guid: e1cf6d446836fbc4ca5b640f8bd6930a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1cf6d446836fbc4ca5b640f8bd6930a, type: 3}
 --- !u!1 &1646548273
@@ -2207,7 +2215,7 @@ MonoBehaviour:
       type: {class: BackgroundObjectPlacementRandomizer, ns: UnityEngine.Perception.Randomization.Randomizers.SampleRandomizers, asm: Unity.Perception.Runtime}
       data:
         m_Enabled: 1
-        collapsed: 0
+        collapsed: 1
         <enabledStateCanBeSwitchedByUser>k__BackingField: 1
         depth: 0
         layerCount: 2

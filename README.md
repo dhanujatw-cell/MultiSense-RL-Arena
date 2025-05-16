@@ -83,8 +83,47 @@ Navigate to the `ml-agents-release_20` directory and run the following commands:
 pip3 install -e ./ml-agents-envs
 pip3 install -e ./ml-agents
 ```
-### ✅ Unity Envieonment Configuration
-to be filled by Mayooran
+### ✅ Unity Environment Configuration
+
+
+https://github.com/user-attachments/assets/575f6475-7f3a-4291-8b95-0e0c807080c1
+
+
+
+A GUI-level control of the following configurations is available in the first Unity scene (see Figure&nbsp;1).  
+In addition to the GUI, users can optionally control the same parameters via a YAML file for automated or scripted setups.
+
+- **Environment to spawn** – Choose from: `Bank`, `City`, `Intersection`
+- **Lighting level** – Adjust the global illumination/intensity for the scene
+- **Number of humans to spawn** – Select how many characters appear, and optionally the type of activities they perform (from a predefined list)
+- **Camera placements** – Choose from a set of predefined camera positions
+- **Number of cameras to spawn** – Select how many cameras will be instantiated from the available positions
+
+The prefabs populated in the scenes are designed in a reusable and modular way, making them easily extendable for related surveillance applications or research use cases.
+
+#### Intro Scene
+
+![Intro](https://github.com/user-attachments/assets/44e1c1ea-9d9b-4d2f-9fe1-578cde3eca0b)
+Location: Assets/Scenes/Intro scene
+This scene gives handle to congifure the environment as mentioned above. With the button press, Unity will spawn the selected environment with the requested settings.
+
+#### Active Scene
+
+Location: Assets/Scenes/Active scene
+This scene will be spawned with the button clicked. This holds the spawners for people, vehicles, cameras and lightings.
+
+There is an additional configuration to the number of people you spawn in the environment. You can configure the probabilies of each behavior they perform by setting the slider bar available in the PeopleSpawner GameObject inside Active Scene.
+![people_with_probabilities](https://github.com/user-attachments/assets/ed6dff1a-5c01-49b9-8ee1-c61527b55d55)
+
+#### Customise your scene
+
+There are few adjustments you need to consider when you plugin your new environment to this framework. 
+1. place the environment prefab file inside the Assets/Resources/Environment/YOUR SCENE
+2. Go to Intro Scene. Add your environment name as a new dropdown option in the Canvas->Environment.
+3. Add a few camera mount GameObjects to your scene at suitable positions to programmatically spawn your cameras. Refer to the CameraMounts GameObject attached to each Environment prefab.
+4. Include the places you would like to spawn the people to an existing tag called Floor. In essence, people will be spawned on the gameobjects assigned to this tag.
+5. Add vehicles or any moving objects to your environment refering to Cars GameObject. It is noteworthy to go through the CarWaypointFollower.cs script to assign a trajectory to any moving objects.
+
 
 ## 🎯 Use Case: Multi-Camera Surveillance with Intelligent Steering
 
