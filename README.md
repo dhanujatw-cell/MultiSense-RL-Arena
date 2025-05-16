@@ -75,7 +75,7 @@ Follow the same procedure to install `com.unity.perception-Release-0.9.0.preview
 To set up the server, it is **recommended** to install all the prerequisite packages using the **same versions** specified in the `requirements.txt` file.  
 Please use **Python 3.10.8** for full compatibility. 
 To enable GPU-powered acceleration, ensure that you install a **CUDA-compatible version of PyTorch**.  
-In our case, we tested the setup using **PyTorch 1.11.0 with CUDA 11.5**.
+In our case, we tested the setup using **PyTorch 2.1.2+cu118 with CUDA 11.8**.
 
 Navigate to the `ml-agents-release_20` directory and run the following commands:
 
