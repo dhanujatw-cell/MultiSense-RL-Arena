@@ -120,6 +120,9 @@ This will begin the training process. You can observe the simulation either:
 - Or via an **OpenCV-based visualization window**
 
 ---
+### 🚀 Simultion using pre trained-(for two camera case)
+Set up 
+
 
 ### 🎥 Demo Video
 
