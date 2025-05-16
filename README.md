@@ -14,7 +14,7 @@ MultiSense-RL Arena is a reinforcement learning framework for multi-sensor edge-
 
 ### 📂 Code
 
-Relevant code is available at:  
+Relevant Server code and weight files are  available at:  
 https://smu-my.sharepoint.com/:f:/r/personal/dhanujaw_2020_phdcs_smu_edu_sg/Documents/MultiSense-RL-Arena?csf=1&web=1&e=HoaoCl
 
 
