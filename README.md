@@ -83,6 +83,7 @@ pip3 install -e ./ml-agents-envs
 pip3 install -e ./ml-agents
 ```
 ### ✅ Unity Environment Configuration
+![BigCity](https://github.com/user-attachments/assets/c887e46d-c71f-4677-b937-825cc56290a1)
 
 A GUI-level control of the following configurations is available in the first Unity scene (see Figure&nbsp;1).  
 In addition to the GUI, users can optionally control the same parameters via a YAML file for automated or scripted setups.
@@ -97,13 +98,11 @@ The prefabs populated in the scenes are designed in a reusable and modular way, 
 
 #### Intro Scene
 
+![Intro](https://github.com/user-attachments/assets/44e1c1ea-9d9b-4d2f-9fe1-578cde3eca0b)
 Location: Assets/Scenes/Intro scene
 This scene gives handle to congifure the environment as mentioned above. With the button press, Unity will spawn the selected environment with the requested settings.
-<img src="https://github.com/user-attachments/assets/a3319600-438e-44de-87a8-e22a3625f44d" alt="BigCity" width="300"/>
-
 
 #### Active Scene
-![Intro](https://github.com/user-attachments/assets/44e1c1ea-9d9b-4d2f-9fe1-578cde3eca0b)
 
 Location: Assets/Scenes/Active scene
 This scene will be spawned with the button clicked. This holds the spawners for people, vehicles, cameras and lightings.
