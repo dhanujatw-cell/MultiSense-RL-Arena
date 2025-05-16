@@ -47,10 +47,10 @@ public class BBoxReceiver : MonoBehaviour
             flatList.Add(bbox.width);
             flatList.Add(bbox.height);
 
-            Debug.Log($"[BBoxReceiver] BBox {count}: Label={bbox.label_id}, x={bbox.x}, y={bbox.y}, w={bbox.width}, h={bbox.height}");
+            // Debug.Log($"[BBoxReceiver] BBox {count}: Label={bbox.label_id}, x={bbox.x}, y={bbox.y}, w={bbox.width}, h={bbox.height}");
             count++;
         }
-        Debug.Log($"[BBoxReceiver] Final flatList: {string.Join(", ", flatList)}");
+        // Debug.Log($"[BBoxReceiver] Final flatList: {string.Join(", ", flatList)}");
 
         sensorComponent?.UpdateBBoxObservation(flatList);
     }
