@@ -82,8 +82,19 @@ Navigate to the `ml-agents-release_20` directory and run the following commands:
 pip3 install -e ./ml-agents-envs
 pip3 install -e ./ml-agents
 ```
-### ✅ Unity Envieonment Configuration
-to be filled by Mayooran
+### ✅ Unity Environment Configuration
+
+A GUI-level control of the following configurations is available in the first Unity scene (see Figure&nbsp;1).  
+In addition to the GUI, users can optionally control the same parameters via a YAML file for automated or scripted setups.
+
+- **Environment to spawn** – Choose from: `Bank`, `City`, `Intersection`
+- **Lighting level** – Adjust the global illumination/intensity for the scene
+- **Number of humans to spawn** – Select how many characters appear, and optionally the type of activities they perform (from a predefined list)
+- **Camera placements** – Choose from a set of predefined camera positions
+- **Number of cameras to spawn** – Select how many cameras will be instantiated from the available positions
+
+The prefabs populated in the scenes are designed in a reusable and modular way, making them easily extendable for related surveillance applications or research use cases.
+
 
 ## 🎯 Use Case: Multi-Camera Surveillance with Intelligent Steering
 
