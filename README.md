@@ -83,7 +83,11 @@ pip3 install -e ./ml-agents-envs
 pip3 install -e ./ml-agents
 ```
 ### ✅ Unity Environment Configuration
-![BigCity](https://github.com/user-attachments/assets/c887e46d-c71f-4677-b937-825cc56290a1)
+
+
+https://github.com/user-attachments/assets/575f6475-7f3a-4291-8b95-0e0c807080c1
+
+
 
 A GUI-level control of the following configurations is available in the first Unity scene (see Figure&nbsp;1).  
 In addition to the GUI, users can optionally control the same parameters via a YAML file for automated or scripted setups.
