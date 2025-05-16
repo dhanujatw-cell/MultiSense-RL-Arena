@@ -99,11 +99,11 @@ The prefabs populated in the scenes are designed in a reusable and modular way, 
 
 Location: Assets/Scenes/Intro scene
 This scene gives handle to congifure the environment as mentioned above. With the button press, Unity will spawn the selected environment with the requested settings.
-<img src="https://github.com/user-attachments/assets/5629a38e-72e7-40b3-9f0a-3c7ae0dca51b" alt="Intro" width="300"/>  
 <img src="https://github.com/user-attachments/assets/a3319600-438e-44de-87a8-e22a3625f44d" alt="BigCity" width="300"/>
 
 
 #### Active Scene
+![Intro](https://github.com/user-attachments/assets/44e1c1ea-9d9b-4d2f-9fe1-578cde3eca0b)
 
 Location: Assets/Scenes/Active scene
 This scene will be spawned with the button clicked. This holds the spawners for people, vehicles, cameras and lightings.
