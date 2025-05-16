@@ -106,6 +106,9 @@ This scene gives handle to congifure the environment as mentioned above. With th
 Location: Assets/Scenes/Active scene
 This scene will be spawned with the button clicked. This holds the spawners for people, vehicles, cameras and lightings.
 
+There is an additional configuration to the number of people you spawn in the environment. You can configure the probabilies of each behavior they perform by setting the slider bar available in the PeopleSpawner GameObject inside Active Scene.
+![people_with_probabilities](https://github.com/user-attachments/assets/ed6dff1a-5c01-49b9-8ee1-c61527b55d55)
+
 #### Customise your scene
 
 There are few adjustments you need to consider when you plugin your new environment to this framework. 
