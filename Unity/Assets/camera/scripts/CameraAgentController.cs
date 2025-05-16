@@ -7,13 +7,14 @@ public class CameraAgentController : MonoBehaviour
     public float rotationAngle = 10f;
     public Camera agentCamera;
     public float timeBetweenDecisionsAtInference = 0.1f;
-
+    public Vector3 initialRotationEuler = new Vector3(90f, 150f, 0f);
     private float m_TimeSinceDecision;
     private Agent m_Agent;
 
     void OnEnable()
     {
         m_Agent = GetComponent<Agent>();
+        transform.rotation = Quaternion.Euler(initialRotationEuler);
         transform.rotation = Quaternion.identity;
     }
 
@@ -31,6 +32,14 @@ public class CameraAgentController : MonoBehaviour
 
         // Optionally end episode
         if (Mathf.Abs(viewTargetScore - 1.0f) < 0.01f)
+        {
+            m_Agent.EndEpisode();
+        }
+    }
+
+    public void TryEndEpisode()
+    {
+        if (m_Agent != null)
         {
             m_Agent.EndEpisode();
         }

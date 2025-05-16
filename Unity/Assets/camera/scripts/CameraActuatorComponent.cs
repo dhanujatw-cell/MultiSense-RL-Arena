@@ -17,6 +17,7 @@ public class CameraActuator : IActuator
 {
     private CameraAgentController controller;
     private ActionSpec spec = ActionSpec.MakeDiscrete(3);
+    private int stepCount = 0;
 
     public CameraActuator(CameraAgentController ctrl)
     {
@@ -35,6 +36,11 @@ public class CameraActuator : IActuator
         else if (move == 2) direction = 1;
 
         controller.RotateAgent(direction);
+
+        // Increment step count and end after 50 steps
+        stepCount++;
+        Debug.Log($"[CameraActuatorComponent] Final stepCount: {stepCount}");
+
     }
 
     public void Heuristic(in ActionBuffers actionBuffersOut)

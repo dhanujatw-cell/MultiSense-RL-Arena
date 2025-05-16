@@ -39,19 +39,29 @@ public class BBoxReceiver : MonoBehaviour
 
         foreach (var bbox in args.data)
         {
-            if (count >= 5) break;
+            if (count >= 8) break;
 
             flatList.Add(bbox.label_id);
+            flatList.Add(bbox.instance_id);
             flatList.Add(bbox.x);
             flatList.Add(bbox.y);
             flatList.Add(bbox.width);
             flatList.Add(bbox.height);
 
-            // Debug.Log($"[BBoxReceiver] BBox {count}: Label={bbox.label_id}, x={bbox.x}, y={bbox.y}, w={bbox.width}, h={bbox.height}");
+            Debug.Log($"[BBoxReceiver] BBox {count}: Label={bbox.label_id}, x={bbox.x}, y={bbox.y}, w={bbox.width}, h={bbox.height}");
             count++;
         }
-        // Debug.Log($"[BBoxReceiver] Final flatList: {string.Join(", ", flatList)}");
 
+        if (flatList.Count == 0)
+        {
+            Debug.Log("[BBoxReceiver] No objects detected. Sending empty bbox list.");
+        }
+        else
+        {
+            Debug.Log($"[BBoxReceiver] Final flatList: {string.Join(", ", flatList)}");
+        }
+
+        // Always update bbox sensor, even if empty
         sensorComponent?.UpdateBBoxObservation(flatList);
     }
 }
