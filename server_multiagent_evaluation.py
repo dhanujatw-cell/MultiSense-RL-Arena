@@ -88,7 +88,7 @@ def extarct_gt(agent_ids, decision_steps):
         if obs_image.dtype != np.uint8:
             obs_image = (obs_image * 255).astype(np.uint8)
         
-        obs_gt = decision_steps[agent_id].obs[1]  # Flat list
+        obs_gt = decision_steps[agent_id].obs[2]  # Flat list
         obs_list = list(obs_gt)
         gt_boxes = []
 
