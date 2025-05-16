@@ -100,6 +100,7 @@ The prefabs populated in the scenes are designed in a reusable and modular way, 
 Location: Assets/Scenes/Intro scene
 This scene gives handle to congifure the environment as mentioned above. With the button press, Unity will spawn the selected environment with the requested settings.
 ![Intro](https://github.com/user-attachments/assets/5629a38e-72e7-40b3-9f0a-3c7ae0dca51b)
+![BigCity](https://github.com/user-attachments/assets/a3319600-438e-44de-87a8-e22a3625f44d)
 
 #### Active Scene
 
