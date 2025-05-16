@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class BBoxSensor : ISensor
 {
-    private const int maxBoxes = 5;
-    private const int valuesPerBox = 5;
+    private const int maxBoxes = 8;
+    private const int valuesPerBox = 6;
     private const int totalObservationSize = maxBoxes * valuesPerBox;
 
     private string sensorName;
